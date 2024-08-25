@@ -12,7 +12,7 @@ const Navbar = () => {
 
     const [menuOpen, setMenuOpen] = useState(false);
   return (
-    <header className={`${menuOpen ? "flex-col" : ""} flex justify-between items-center border border-b-slate-300 shadow-sm px-16 py-6`}>
+    <header className={`${menuOpen ? "flex-col" : ""} flex justify-between items-center border border-b-slate-300 shadow-sm px-4 py-3 md:px-16 md:py-6`}>
         <Link href="/">
             <Image
             width={200}
