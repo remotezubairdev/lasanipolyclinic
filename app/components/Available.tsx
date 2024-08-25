@@ -91,9 +91,10 @@ const Available = () => {
             {currentDoctor}
           </p>
         ) : (
-          <p>No doctor is available currently.</p>
+          <p>No doctor is available at the current time.</p>
         )}
       </div>
+      <span className='text-sm'>*Please note that the time may vary</span>
     </div>
   );
 };
