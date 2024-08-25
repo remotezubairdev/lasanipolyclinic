@@ -38,7 +38,7 @@ const Footer = () => {
             </div>
             <div className='flex items-center gap-3 max-w-lg text-sm'>
               <FaLocationDot size={20} />
-              316, E-1 Society, Johar Town Block E 1 Phase 1 Johar Town, Lahore, Punjab 00000
+              316, E-1 Society, Johar Town Block E 1 Phase 1, Lahore, Punjab
             </div>
           </div>
           <span className='text-sm'>
