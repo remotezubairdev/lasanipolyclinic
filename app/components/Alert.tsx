@@ -8,7 +8,7 @@ const Alert = () => {
     const [open, setOpen] = useState(true);
   return (
     open ? (
-        <div className='fixed right-[20px] bottom-[20px] bg-white border border-gray-300 shadow-md w-max md:p-3 rounded-lg p-2 z-100 '>
+        <div className='fixed right-[7px] bottom-[7px] md:right-[20px] md:bottom-[20px] bg-white border border-gray-300 shadow-md w-max md:p-3 rounded-lg p-2 z-100 '>
             <div>
                 <div className='flex items-center justify-between'>
                 <h3 className='font-semibold'>Timings:</h3>
