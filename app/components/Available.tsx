@@ -44,10 +44,10 @@ const Available = () => {
   };
 
   return (
-    <div id="availability" className="p-4">
+    <div id="availability" className="md:p-4">
       <h3 className="text-2xl font-bold mb-4 text-center">Doctor Availability</h3>
 
-      <div className="overflow-x-auto">
+      <div className="overflow-x-scroll">
         <table className="table-auto border-collapse border border-gray-300 w-full mb-6">
           <thead>
             <tr className="bg-gray-100">
