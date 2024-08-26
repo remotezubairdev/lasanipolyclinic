@@ -16,7 +16,7 @@ const Available = () => {
     (currentDay === 0 && currentHour >= 11 && currentHour < 14); // Sunday 11AM-2PM
 
   return (
-    <div id="availability" className="p-6 bg-gray-50 min-h-screen">
+    <div id="availability" className="mt-6">
       <h3 className="text-2xl font-bold text-center mb-6">Doctor Availability</h3>
 
       {/* Availability Table */}
