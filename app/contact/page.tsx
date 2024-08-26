@@ -10,8 +10,8 @@ const page = () => {
       <LinkBtn name='<-- Back to Home' path='/' />
       <Available />
         <section className='flex flex-wrap items-center justify-between'>
-          <Contact />
           <Timings />
+          <Contact />
         </section>
     </main>
   )
