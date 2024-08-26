@@ -9,8 +9,7 @@ const montserrat = Montserrat({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Lasani Polyclinic | Lahore",
-  description: `A Poly Clinic Located in Johar Town, Lahore. We specialize in gynaecology & diabetes. We believe that 
-  regular blood sugar level monitoring is mandatory for diabetic patients. Our proper diagnosis and effective treatment saves 
+  description: `A Poly Clinic Located in Johar Town, Lahore. We specialize in gynaecology & diabetes. Our proper diagnosis and effective treatment saves 
   precious lives.`,
 };
 
