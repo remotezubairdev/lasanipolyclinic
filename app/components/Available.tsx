@@ -17,47 +17,57 @@ const Available = () => {
 
   return (
     <div id="availability" className="p-6 bg-gray-50 min-h-screen">
-      <h3 className="text-2xl font-bold text-center mb-4">Doctor Availability</h3>
+      <h3 className="text-2xl font-bold text-center mb-6">Doctor Availability</h3>
 
-      {/* Dr. Imran */}
-      <div className="flex items-center justify-center mb-4">
-        {isDrImranAvailable ? (
-          <FaCheckCircle className="text-green-500 mr-2" />
-        ) : (
-          <FaTimesCircle className="text-red-500 mr-2" />
-        )}
-        <p className="text-lg font-semibold">
-          {isDrImranAvailable
-            ? 'Dr. Imran is available now.'
-            : 'Dr. Imran is not available at this time.'}
-        </p>
-      </div>
+      {/* Availability Table */}
+      <div className="overflow-x-auto">
+        <table className="min-w-full bg-white shadow-lg rounded-lg">
+          <thead>
+            <tr>
+              <th className="px-6 py-3 bg-gray-200 text-left text-xs font-medium text-gray-600 uppercase tracking-wider">Doctor</th>
+              <th className="px-6 py-3 bg-gray-200 text-left text-xs font-medium text-gray-600 uppercase tracking-wider">Availability</th>
+              <th className="px-6 py-3 bg-gray-200 text-left text-xs font-medium text-gray-600 uppercase tracking-wider">Next Available</th>
+            </tr>
+          </thead>
+          <tbody>
+            {/* Dr. Imran Row */}
+            <tr>
+              <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Dr. Imran Gardezi</td>
+              <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                {isDrImranAvailable ? (
+                  <span className="flex items-center text-green-500">
+                    <FaCheckCircle className="mr-2" /> Available Now
+                  </span>
+                ) : (
+                  <span className="flex items-center text-red-500">
+                    <FaTimesCircle className="mr-2" /> Not Available
+                  </span>
+                )}
+              </td>
+              <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">8PM-10PM Mon-Fri</td>
+            </tr>
 
-      {/* Dr. Arifa */}
-      <div className="flex items-center justify-center mb-4">
-        {isDrArifaAvailable ? (
-          <FaCheckCircle className="text-green-500 mr-2" />
-        ) : (
-          <FaTimesCircle className="text-red-500 mr-2" />
-        )}
-        <p className="text-lg font-semibold">
-          {isDrArifaAvailable
-            ? 'Dr. Arifa is available now.'
-            : 'Dr. Arifa is not available at this time.'}
-        </p>
-      </div>
-
-      {/* Show when they will be available next */}
-      <div className="text-center text-gray-600 mt-6">
-        <p className="font-semibold">
-          Dr. Imran's Timings: 8PM-10PM Mon-Fri
-        </p>
-        <p className="font-semibold">
-          Dr. Arifa's Timings: 7PM-10PM Mon-Sat, 11AM-2PM Sunday
-        </p>
+            {/* Dr. Arifa Row */}
+            <tr>
+              <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Dr. Arifa Imran</td>
+              <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                {isDrArifaAvailable ? (
+                  <span className="flex items-center text-green-500">
+                    <FaCheckCircle className="mr-2" /> Available Now
+                  </span>
+                ) : (
+                  <span className="flex items-center text-red-500">
+                    <FaTimesCircle className="mr-2" /> Not Available
+                  </span>
+                )}
+              </td>
+              <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">7PM-10PM Mon-Sat, 11AM-2PM Sun</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default Available;
