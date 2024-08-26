@@ -26,7 +26,7 @@ const Contact: React.FC<ContactProps> = ({ params }) => {
 
   return (
     <div className="mt-24 min-h-screen">
-      <LinkBtn name='<- Back to home' path='/' />
+      <LinkBtn name='<- Back' path='/contact' />
       <h2 className="text-3xl font-bold text-center text-gray-800 mb-8">
         Contact {contact.name}
       </h2>
