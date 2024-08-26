@@ -10,7 +10,7 @@ const Location = () => {
           click the <Link target='_blank' href="https://www.google.com/maps?ll=31.473812,74.289188&z=14&t=m&hl=en&gl=US&mapclient=embed&cid=15619238557655416165" className="underline text-blue-600">View larger map</Link> link.
         </p>
       </div>
-      <iframe width={400} height={400} src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Lasani%20Poly%20Clinic+(Lasani%20Polyclinic)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+      <iframe loading="lazy" width={400} height={400} src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Lasani%20Poly%20Clinic+(Lasani%20Polyclinic)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
     </section>
   )
 }
