@@ -29,7 +29,7 @@ const Available = () => {
               <th className="px-6 py-3 bg-gray-200 text-left text-xs font-medium text-gray-600 uppercase tracking-wider">Next Available</th>
             </tr>
           </thead>
-          <tbody>
+          <tbody className='bg-gray-100'>
             {/* Dr. Imran Row */}
             <tr>
               <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Dr. Imran Gardezi</td>
