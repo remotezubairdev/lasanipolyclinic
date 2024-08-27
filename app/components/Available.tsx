@@ -21,7 +21,7 @@ const Available = () => {
 
       {/* Availability Table */}
       <div className="overflow-x-auto">
-        <table className="min-w-full bg-white shadow-lg rounded-lg">
+        <table className="border min-w-full bg-white shadow-lg rounded-lg">
           <thead>
             <tr>
               <th className="px-6 py-3 bg-gray-200 text-left text-xs font-medium text-gray-600 uppercase tracking-wider">Doctor</th>
