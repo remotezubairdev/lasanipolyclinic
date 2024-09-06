@@ -23,7 +23,7 @@ const Footer = () => {
           <ul className='text-sm w-fit flex flex-col items-start'>
             {
               footerLinks.map((link, index) => (
-                <li>
+                <li key={link.name}>
                   <Link className={`${index === 0 ? "font-semibold" : ""}`} key={link.name} href={link.path}>
                     {link.name}
                   </Link>
