@@ -66,7 +66,7 @@ const Available = () => {
           </tbody>
         </table>
         <p className='md:hidden block text-[12px]'>
-           Scroll to see the table -->
+           Scroll to see the table --&gt;
         </p>
       </div>
     </div>
