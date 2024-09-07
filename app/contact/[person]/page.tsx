@@ -53,6 +53,20 @@ const Contact: React.FC<ContactProps> = ({ params }) => {
         </div>
 
       </div>
+      {contact.name == "dr imran gardezi" ? (
+            <p className='max-w-xl mt-3 text-sm text-gray-800'>
+   For more information on diabetes management, visit the 
+   <a href="https://www.diabetes.org/" target="_blank" rel="noopener noreferrer" class="text-blue-600">American Diabetes Association</a> 
+   or explore guidelines from the 
+   <a href="https://www.who.int/health-topics/diabetes" target="_blank" rel="noopener noreferrer" class="text-blue-600">World Health Organization</a>.
+</p>
+      ) : (
+            <p className='max-w-xl mt-3 text-sm text-gray-800'>
+   Learn more about women's health by visiting the 
+   <a href="https://www.mayoclinic.org/" target="_blank" rel="noopener noreferrer" class="text-blue-600">Mayo Clinic</a> or exploring resources from 
+   <a href="https://www.acog.org/" target="_blank" rel="noopener noreferrer" class="text-blue-600">The American College of Obstetricians and Gynecologists</a>.
+</p>
+      )}
     </div>
   );
 };
