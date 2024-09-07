@@ -8,12 +8,12 @@ const Hero = () => {
     <section className='mt-24'>
       <div className='max-w-3xl'>
         <h1 className='md:text-5xl font-bold text-black text-4xl'>
-          Your Health, Our Priority <br/>
-          Welcome to Lasani PolyClinic
+          Lasani Polyclinic: Gyanaecologist <br />
+          & Diabetes Specialist in Lahore
         </h1>
         <p className='max-w-xl mt-3 text-sm text-gray-800'>
-        We offer specialized care in both gynaecology and diabetes,
-        led by an expert who is also a skilled General Physician. Our focus is on providing personalized, attentive
+        We offer specialized medical care in both gynaecology and diabetes,
+        led by a Diabetes Specialist who is also a skilled General Physician. Our focus is on providing personalized, attentive
         care to support your overall health and well-being.
         </p>
         <div className='flex items-center gap-5 mt-5'>
