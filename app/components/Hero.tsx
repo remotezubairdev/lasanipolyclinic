@@ -12,9 +12,7 @@ const Hero = () => {
           & Diabetes Specialist in Lahore
         </h1>
         <p className='max-w-xl mt-3 text-sm text-gray-800'>
-        We offer specialized medical care in both gynaecology and diabetes,
-        led by a Diabetes Specialist who is also a skilled General Physician. Our focus is on providing personalized, attentive
-        care to support your overall health and well-being.
+        Our clinic provides a range of medical services focused on women's health and chronic conditions. With experienced specialists in both general medicine and women's care, we are dedicated to offering compassionate, personalized treatment to support your well-being.
         </p>
         <div className='flex items-center gap-5 mt-5'>
           <LinkBtn name='CONTACT US' path='/contact' type='outline' />
