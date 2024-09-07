@@ -1,3 +1,4 @@
+'use client';
 import React from 'react';
 import { contacts } from '@/app/constants';
 import Link from 'next/link'; // Importing Next.js Link component
@@ -57,24 +58,24 @@ const Contact: React.FC<ContactProps> = ({ params }) => {
       {contact.name.toLowerCase() === "dr imran gardezi" ? (
         <p className='max-w-xl mt-3 text-sm text-gray-800'>
           For more information on diabetes management, visit the 
-          <Link href="https://www.diabetes.org/" target="_blank" rel="noopener noreferrer" className="text-blue-600">
+          <a href="https://www.diabetes.org/" target="_blank" rel="noopener noreferrer" className="text-blue-600">
             American Diabetes Association
-          </Link> 
+          </a> 
           or explore guidelines from the 
-          <Link href="https://www.who.int/health-topics/diabetes" target="_blank" rel="noopener noreferrer" className="text-blue-600">
+          <a href="https://www.who.int/health-topics/diabetes" target="_blank" rel="noopener noreferrer" className="text-blue-600">
             World Health Organization
-          </Link>.
+          </a>.
         </p>
       ) : (
         <p className='max-w-xl mt-3 text-sm text-gray-800'>
           Learn more about women's health by visiting the 
-          <Link href="https://www.mayoclinic.org/" target="_blank" rel="noopener noreferrer" className="text-blue-600">
+          <a href="https://www.mayoclinic.org/" target="_blank" rel="noopener noreferrer" className="text-blue-600">
             Mayo Clinic
-          </Link> 
+          </a> 
           or exploring resources from the 
-          <Link href="https://www.acog.org/" target="_blank" rel="noopener noreferrer" className="text-blue-600">
+          <a href="https://www.acog.org/" target="_blank" rel="noopener noreferrer" className="text-blue-600">
             American College of Obstetricians and Gynecologists
-          </Link>.
+          </a>.
         </p>
       )}
     </div>
