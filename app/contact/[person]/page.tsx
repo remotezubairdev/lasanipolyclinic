@@ -53,7 +53,7 @@ const Contact: React.FC<ContactProps> = ({ params }) => {
         <p className="text-gray-600 mb-4">
           <strong>Phone:</strong> {contact.phone}
         </p>
-        <div className='flex flex-wrap items-center gap-6'>
+        <div className='flex flex-col md:flex-row items-center gap-x-6 gap-y-1'>
           <LinkBtn name={`Call ${contact.name}`} path={`tel:${contact.phone}`} type='outline' />
           <LinkBtn name='Check if they&apos;re available' path='/contact#availability' />
         </div>
