@@ -13,7 +13,7 @@ interface ContactProps {
 
 const Contact: React.FC<ContactProps> = ({ params }) => {
   // Find the contact details based on the ID from the URL
-  const contact = contacts.find(contact => contact.id === params.person); // Assuming each contact has a unique ID
+  const contact = contacts.find(contact => contact.id === Number(params.person)); // Assuming each contact has a unique ID
   console.log(params);
 
   if (!contact) {
