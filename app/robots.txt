@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+Disallow: 
+
+Sitemap: https://lasanipolyclinic.vercel.app/sitemap.xml
